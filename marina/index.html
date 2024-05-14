@@ -1,37 +1,54 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="pt-br">
 <head>
-    <title>tyflex</title>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aluguel de Filmes</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+<body>
+    <header>
+        <h1>Aluguel de Filmes</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#catalogo">Catálogo</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
 
-<body>
-    <h1>teste 30 dias gratuito</h1>
-</body>
-<section class="principal">
-    <h1>Com o Combo+, você pode aproveitar a Alura+ e o Alura Língua por um preço único.</h1>
-    <img src="img/Combo.png" alt="O combo+ é a junção do alura+ e o alura língua">
-</section>
-.principal {
-    background-image: url("img/Background.png");
-}
-<body>
-    <section class="container principal">
-        <h1>Com o Combo+, você pode aproveitar a Alura+ e o Alura Língua por um preço único.</h1>
-        <img src="img/Combo.png" alt="O combo+ é a junção do alura+ e o alura língua">
+    <section id="home">
+        <h2>Bem-vindo ao nosso site de aluguel de filmes!</h2>
+        <p>Encontre os melhores filmes para alugar e aproveite seu tempo livre.</p>
     </section>
+
+    <section id="catalogo">
+        <h2>Catálogo de Filmes</h2>
+        <div class="filme">
+            <img src="imagem1.jpg" alt="Nome do Filme">
+            <h3>Nome do Filme</h3>
+            <p>Descrição do filme e informações relevantes.</p>
+            <button>Alugar</button>
+        </div>
+        <!-- Repita este bloco para outros filmes -->
+    </section>
+
+    <section id="contato">
+        <h2>Entre em Contato</h2>
+        <form>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Aluguel de Filmes</p>
+    </footer>
 </body>
-.container {
-    height: 100vh;
-}
-.principal {
-    background-image: url("img/Background.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-
-
 </html>
