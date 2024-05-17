@@ -1,63 +1,33 @@
+
 <!DOCTYPE html>
-<html>
-
+<html lang="pt-BR">
 <head>
-    <title>Alura Plus</title>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aluguel de Filmes</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <h1>teste 30 dias gratuito</h1>
-
-    </section>
-</body>
-.container {
-    height: 100vh;
-}
-.principal {
-    background-image: url("img/Background.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-
-
-</html><img
- src=”https://static-sg.winudf.com/wupload/xy/aprojectadmin/JZPCDxo3.jpg” alt="">
-.principal {
-    background-image: url(“img/Background.png”);
-    }
-    <section class="container principal">
-        <h1>Com o Combo+, você pode aproveitar a Alura+ e o Alura Língua por um preço único.</h1>
-        <img src="img/Combo.png" alt="O combo+ é a junção do alura+ e o alura língua">
-        <a href="www.alura.com.br" class="container__botao">Assine por 12x de R$ 120,00*</a>
-</section>
-.container__botao {
-    background-color: var(--botao-azul);
-    border-radius: 5px;
-    padding: 1em;
-    color: var(--branco-principal);
-    display: block;
-}
-.container {
-    height: 100vh;
-    display: grid;
-}
-<section class="container principal">
-    <div>
-        <h1>Com o Combo+, você pode aproveitar a Alura+ e o Alura Língua por um preço único.</h1>
-        <img src="img/Combo.png" alt="O combo+ é a junção do alura+ e o alura língua">
-        <a href="www.alura.com.br" class="container__botao">Assine por 12x de R$ 120,00*</a>
-    </div>
-</section>
-.container {
-    height: 100vh;
-    display: grid;
-    grid-template-columns: 50% 50%;
-}
-.botao_secundario {
-    background-color: transparent;
-    border: 2px solid var(--branco-principal)
-}
-
+    <header>
+        <h1>Bem-vindo ao Aluguel de Filmes</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Filmes</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="filmes-destaque">
+            <h2>Filmes em Destaque</h2>
+            <div class="filme">
+                <img src="filme1.jpg" alt="Filme 1">
+                <h3>Filme 1</h3>
+                <p>Descrição do Filme 1</p>
+                <button onclick="alugarFilme('Filme 1')">Alugar</button>
+            </div>
+            <div class="filme">
+                <img src="filme2.jpg" alt="Fil
